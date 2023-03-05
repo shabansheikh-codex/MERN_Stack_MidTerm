@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from "../assets/images/bannerImages/image.png"
+import Image1 from "../assets/images/bannerImages/image1.png"
 
 const Slider = () => {
   return (
@@ -11,13 +13,10 @@ const Slider = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src='./Fotos/gcu.jpg' className="d-block w-100" alt='...' style={{height: "500px"}}/>
+      <img src={Image} className="d-block w-100" alt='...' style={{height: "500px"}}/>
     </div>
     <div className="carousel-item">
-      <img src="./Fotos/bggg.jpg" className="d-block w-100" alt="..." style={{height: "500px"}} />
-    </div>
-    <div className="carousel-item">
-      <img src="./Fotos/abc.webp" className="d-block w-100" alt="..." style={{height: "500px"}} />
+      <img src={Image1} className="d-block w-100" alt="..." style={{height: "500px"}} />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
